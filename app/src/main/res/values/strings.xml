@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">TestProject</string>
+    <string name="api_adrees">https://maps.googleapis.com</string>
+    <string name="location">52,21</string>
+    <string name="radius">1500</string>
+    <string name="key">AIzaSyAohG7mFwe2JSoJzDSldFGoMHMIW7kxuMA</string>
 </resources>

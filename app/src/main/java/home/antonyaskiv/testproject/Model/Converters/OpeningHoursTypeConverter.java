@@ -26,7 +26,9 @@ public class OpeningHoursTypeConverter {
         }
 
         String csv = csvBuilder.toString();
-        csv = csv.substring(0, csv.length() - SEPARATOR.length());
+        if(csv.length()>0) {
+            csv = csv.substring(0, csv.length() - SEPARATOR.length());
+        }
                 return csv;
     }
 }

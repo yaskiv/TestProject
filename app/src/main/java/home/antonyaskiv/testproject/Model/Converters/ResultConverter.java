@@ -38,22 +38,25 @@ public class ResultConverter {
     @TypeConverter
     public static List<Photo> stringToPhoto(String text)
     {
-        String[] photoArray = text.split(strSeparator);
         List<Photo> videos = new ArrayList<Photo>();
+        if(text!="non"){
+        String[] photoArray = text.split(strSeparator);
         Gson gson = new Gson();
         for (int i=0;i<photoArray.length-1;i++){
             videos.add(gson.fromJson(photoArray[i] , Photo.class));
+        }
         }
         return videos;
     }
     @TypeConverter
     public static String photoToString(List<Photo> photos)
-    {
+    {     String str = "non";
+        if (photos!=null){
         Photo[] photoArray = new Photo[photos.size()];
         for (int i = 0; i <= photos.size()-1; i++) {
             photoArray[i] = photos.get(i);
         }
-        String str = "";
+
         Gson gson = new Gson();
         for (int i = 0; i < photoArray.length; i++) {
             String jsonString = gson.toJson(photoArray[i]);
@@ -61,7 +64,7 @@ public class ResultConverter {
             if (i < photoArray.length - 1) {
                 str = str + strSeparator;
             }
-        }
+        }}
         return str;
     }
 }

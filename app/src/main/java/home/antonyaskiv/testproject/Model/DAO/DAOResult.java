@@ -24,9 +24,9 @@ public interface DAOResult {
     public void insertBothResult(Result result1, Result result2);
 
     @Update
-    public void updateResults(Result... users);
+    public void updateResults(Result... results);
     @Delete
-    public void deleteResults(Result... users);
+    public void deleteResults(Result... results);
     @Query("SELECT * FROM result")
     public Flowable<List<Result>> loadAllResults();
 }
