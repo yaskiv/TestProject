@@ -3,6 +3,7 @@ package home.antonyaskiv.testproject.App;
 import android.app.Application;
 import android.arch.persistence.room.Room;
 
+import com.facebook.drawee.backends.pipeline.Fresco;
 import com.jakewharton.retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory;
 
 import home.antonyaskiv.testproject.Model.DAO.ResultsDatabase;
@@ -34,6 +35,7 @@ public class App extends Application {
 
         database = Room.databaseBuilder(getApplicationContext(), ResultsDatabase.class, DATABASE_NAME)
                 .build();
+        Fresco.initialize(this);
 
         HttpLoggingInterceptor interceptor = new HttpLoggingInterceptor();
         interceptor.setLevel(HttpLoggingInterceptor.Level.BODY);

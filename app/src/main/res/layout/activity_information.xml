@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="home.antonyaskiv.testproject.Controllers.View.Activitys.InformationActivity">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/image_for_result_info"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal" />
+
+
+    <TextView
+        android:id="@+id/name_of_result_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:text="blabla"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/address_of_result_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:text="blabla"
+        android:textSize="14dp" />
+<com.google.android.gms.maps.MapView
+    android:layout_margin="10dp"
+    android:id="@+id/maps_for_address"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    ></com.google.android.gms.maps.MapView>
+
+</LinearLayout>

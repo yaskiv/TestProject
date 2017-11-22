@@ -3,6 +3,11 @@
   <component name="issues">
     <option name="index">
       <map>
+        <entry key="/Dummy.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="/fragment.java">
           <value>
             <set />
@@ -24,6 +29,41 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/home/antonyaskiv/testproject/App/App.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/home/antonyaskiv/testproject/Controllers.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/home/antonyaskiv/testproject/Controllers/Adapters/RecyclerAdapter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/home/antonyaskiv/testproject/Controllers/Adapters/ViewHolder/ItemViewHolder.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/home/antonyaskiv/testproject/Controllers/View/Activitys/InformationActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/home/antonyaskiv/testproject/Controllers/View/Activitys/MainActivity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/home/antonyaskiv/testproject/Controllers/View/DataTransmission/FromMainToInformation.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/home/antonyaskiv/testproject/Controllers/View/MainActivity.java">
           <value>
             <set />
           </value>
@@ -89,6 +129,21 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/home/antonyaskiv/testproject/Model/Viewport.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/activity_information.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/item_recycler.xml">
           <value>
             <set />
           </value>

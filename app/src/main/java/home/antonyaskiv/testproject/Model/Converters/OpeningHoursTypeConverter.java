@@ -16,6 +16,7 @@ public class OpeningHoursTypeConverter {
         return Arrays.asList(text.split(","));
     }
 
+
     @TypeConverter
     public static String weekdayTextToString(List<String> list) {
         StringBuilder csvBuilder = new StringBuilder();
