@@ -13,11 +13,9 @@ import java.util.List;
 
 import home.antonyaskiv.testproject.Controllers.Adapters.ViewHolder.ItemViewHolder;
 import home.antonyaskiv.testproject.Controllers.View.Activitys.InformationActivity;
-import home.antonyaskiv.testproject.Controllers.View.Activitys.MainActivity;
 import home.antonyaskiv.testproject.Controllers.View.DataTransmission.FromMainToInformation;
 import home.antonyaskiv.testproject.Model.Result;
 import home.antonyaskiv.testproject.R;
-import io.reactivex.subjects.PublishSubject;
 
 /**
  * Created by AntonYaskiv on 22.11.2017.

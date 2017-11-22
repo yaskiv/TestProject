@@ -1,16 +1,14 @@
 package home.antonyaskiv.testproject.Controllers.View.Activitys;
 
 import android.net.Uri;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.widget.TextView;
 
 import com.facebook.drawee.view.SimpleDraweeView;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.MapView;
-import com.google.android.gms.maps.OnMapReadyCallback;
-import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.CameraPosition;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
@@ -19,8 +17,7 @@ import home.antonyaskiv.testproject.Controllers.View.DataTransmission.FromMainTo
 import home.antonyaskiv.testproject.R;
 
 public class InformationActivity extends AppCompatActivity {
-   // MapView mapView_for_address;
-    private GoogleMap mgoogleMap;
+
     private FromMainToInformation fromMainToInformation;
     private TextView textView_for_name;
     private TextView textView_for_address;

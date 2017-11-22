@@ -19,7 +19,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class App extends Application {
     public static App INSTANCE;
-    private static final String DATABASE_NAME = "ResultsDB";
+    private static final String DATABASE_NAME = "_ResultsDB";
 
     private ResultsDatabase database;
     private OkHttpClient client;
